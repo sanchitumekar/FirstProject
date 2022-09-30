@@ -1,0 +1,66 @@
+1-3 rucha
+4-6 sanchit
+7-8 Raj
+9- will decide
+
+list <String>
+database name :mcq
+table 1 name:questions
+	column_name=q_no(p_key,auto)
+	column_name=quest()
+
+	Column_name=answer(2/0)
+	
+
+	
+table 2 name:score
+	Column_name=s_id(p-key)
+	
+	Column_name=full_name()
+	Column_name=score()
+
+
+Display Following:- 
+Welcome to Quiz
+1.Attempt Quiz
+2.Get Score Details
+
+1	Quiz Questions
+
+
+You have scored (value) out of 10	
+Class A- 8-10
+Class B- 6-8			
+Class C- 5	
+Class D- <5 
+	you'r fail :( 
+		Better Luck Next time.
+
+
+2 
+ 1 All Student score in Sorted Order
+ 2 Student Score By Id
+
+
+	1 All Sudent Score   Id ,Name,Score
+	
+	2 Enter Student Id
+
+	 particular Id	,Name,Score
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
