@@ -29,9 +29,5 @@ public class Score_DataBase {
 
 	}
 	}
-	public static void main(String args[])
-	{
-		Score_DataBase sc=new Score_DataBase();
-		sc.score();
-	}
+
 }
