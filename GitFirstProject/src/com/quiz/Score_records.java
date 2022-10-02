@@ -10,68 +10,64 @@ public class Score_records {
 	Connection connection = null;
 	ResultSet rs = null;
 
-	public void score() {
-
-		try (Scanner sc=new Scanner(System.in)){
+	public void score() 
+	{
+		try (Scanner sc=new Scanner(System.in))
+		{
 			DataBaseConnection dbc = new DataBaseConnection();
 			connection = dbc.getconnection();
-			ps = connection.prepareStatement("select * from score");
+			ps = connection.prepareStatement("select * from score_table order by score DESC");
 			rs = ps.executeQuery();
 
-			while (rs.next()) {
-				System.out.println("Student Id is " + rs.getInt(1));
-				System.out.println("Name  is " + rs.getString(2));
-				System.out.println(" marks  is " + rs.getInt(3));
+			while (rs.next()) 
+			{
+				System.out.println("Student Id: " + rs.getInt(1));
+				System.out.println("Name: " + rs.getString(2));
+				System.out.println("Marks: " + rs.getInt(3) + "\n");
 			}
-			System.out.print("Enter any key to go on HomePage");
+			System.out.print("\nEnter any key to go on HomePage-->");
 			String a=sc.next();
-			if(a!=null){
+			if(a!=null)
+			{
 				HomePage.Start();
 			}
 
-		} catch (Exception e) {
+		} catch (Exception e) 
+		{
 			e.printStackTrace();
 		}
 	}
-
 	public void score_specific()
 	{	
+		System.out.print("Enter Student Name:");
 		
-		System.out.print("Eneter a Student id");
-		
-	try (Scanner sc=new Scanner(System.in)){
-		int s_id=sc.nextInt();
-		DataBaseConnection dbc=new DataBaseConnection();
-		connection=dbc.getconnection();
-		ps=connection.prepareStatement("select * from score WHERE s_id=?");
-		ps.setLong(1,s_id);
-		 rs = ps.executeQuery();
-		 
-		 
-			while (rs.next()) {
+		try (Scanner sc=new Scanner(System.in))
+		{
+			String full_name=sc.nextLine();
+			DataBaseConnection dbc=new DataBaseConnection();
+			connection=dbc.getconnection();
+			ps=connection.prepareStatement("select * from score_table WHERE full_name=?");
+			ps.setString(1,full_name);
+			rs = ps.executeQuery();
+		 	 
+			while (rs.next()) 
+			{
+				System.out.println();
 				System.out.println("Student Id is " + rs.getInt(1));
 				System.out.println("Name   is " + rs.getString(2));
 				System.out.println("Marks is " + rs.getInt(3));
 			}
 			
-			
-			System.out.print("Enter any key to go on HomePage");
+			System.out.print("\nEnter any key to go on HomePage:");
 			String a=sc.next();
-			if(a!=null){
+			if(a!=null)
+			{
 				HomePage.Start();
 			}
-		
-
-	
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
 	}
-	catch(Exception e)
-	{
-		e.printStackTrace();
-
-	}
-	
-}
-	
-
-
 }
