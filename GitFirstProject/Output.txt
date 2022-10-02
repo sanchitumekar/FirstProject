@@ -1,0 +1,216 @@
+****Welcome to Quiz****
+
+1.Attempt Quiz
+2.Get Score Details
+3.Exit from Quiz
+
+Choose an option by giving number 1, 2 or 3--> 1
+
+Enter Student Name: 
+sanchit
+
+**Quiz Starts**
+
+Q1. What is datatype of value 20.5?
+1. int
+2. String
+3. byte
+4. float
+Enter your option here: 
+4
+
+Q2. Which of the following type of inheritance is not implemented in Java?
+1. Single Inheritance
+2. Multiple Inheritance
+3. Multi-level Inheritance
+4. Hierarchical Inheritance
+Enter your option here: 
+2
+
+Q3. Which of the following are keywords in Java?
+1. if
+2. else
+3. class
+4. All of above
+Enter your option here: 
+4
+
+Q4. Which of the following is a non-primitive datatype in Java?
+1. long
+2. String
+3. float
+4. double
+Enter your option here: 
+2
+
+Q5. Who developed Java Programming language?
+1. James Gosling
+2. James Lock
+3. James Gator
+4. James Rich
+Enter your option here: 
+1
+Your score is 10.
+You get Class A.
+
+****Welcome to Quiz****
+
+1.Attempt Quiz
+2.Get Score Details
+3.Exit from Quiz
+
+Choose an option by giving number 1, 2 or 3--> 2
+1 All Students score in Sorted Order
+2 Specific Student Score by name
+
+Enter a choice in number 1 or 2-->
+1
+Student Id: 1
+Name: sanchit
+Marks: 10
+
+
+Enter any key to go on HomePage-->2
+
+****Welcome to Quiz****
+
+1.Attempt Quiz
+2.Get Score Details
+3.Exit from Quiz
+
+Choose an option by giving number 1, 2 or 3--> 1
+
+Enter Student Name: 
+rucha
+
+**Quiz Starts**
+
+Q1. Which of the following provides data security in Java?
+1. Methods
+2. Encpasulation
+3. Classes
+4. Datatypes
+Enter your option here: 
+1
+
+Q2. In which year Java was developed?
+1. 1991
+2. 1995
+3. 1996
+4. 1997
+Enter your option here: 
+2
+
+Q3. Which of the following type of inheritance is not implemented in Java?
+1. Single Inheritance
+2. Multiple Inheritance
+3. Multi-level Inheritance
+4. Hierarchical Inheritance
+Enter your option here: 
+3
+
+Q4. Which of the following is a non-primitive datatype in Java?
+1. long
+2. String
+3. float
+4. double
+Enter your option here: 
+4
+
+Q5. Which of the following is a primitive datatype in Java?
+1. int
+2. byte
+3. boolean
+4. All of above
+Enter your option here: 
+5
+Your score is 2.
+You have failed.
+
+****Welcome to Quiz****
+
+1.Attempt Quiz
+2.Get Score Details
+3.Exit from Quiz
+
+Choose an option by giving number 1, 2 or 3--> 1
+
+Enter Student Name: 
+rucha
+
+**Quiz Starts**
+
+Q1. Which of the following are Object Oriented Programming pillars?
+1. Inheritance
+2. Encpasulation
+3. Polymorphism
+4. All of above
+Enter your option here: 
+4
+
+Q2. Which of the following is a non-primitive datatype in Java?
+1. long
+2. String
+3. float
+4. double
+Enter your option here: 
+2
+
+Q3. In which year Java was developed?
+1. 1991
+2. 1995
+3. 1996
+4. 1997
+Enter your option here: 
+2
+
+Q4. What is datatype of value 20.5?
+1. int
+2. String
+3. byte
+4. float
+Enter your option here: 
+4
+
+Q5. Which of the following is a primitive datatype in Java?
+1. int
+2. byte
+3. boolean
+4. All of above
+Enter your option here: 
+4
+Your score is 10.
+You get Class A.
+
+****Welcome to Quiz****
+
+1.Attempt Quiz
+2.Get Score Details
+3.Exit from Quiz
+
+Choose an option by giving number 1, 2 or 3--> 2
+1 All Students score in Sorted Order
+2 Specific Student Score by name
+
+Enter a choice in number 1 or 2-->
+2
+Enter Student Name:rucha
+
+Student Id is 2
+Name   is rucha
+Marks is 2
+
+Student Id is 3
+Name   is rucha
+Marks is 10
+
+Enter any key to go on HomePage:2
+
+****Welcome to Quiz****
+
+1.Attempt Quiz
+2.Get Score Details
+3.Exit from Quiz
+
+Choose an option by giving number 1, 2 or 3--> 3
+Exited Successfully!
